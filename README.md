@@ -28,19 +28,19 @@ Para que o projeto seja instalado e executado localmente de forma correta, o amb
 
 ### 1. Clonar o Repositório
 Abra o seu terminal na pasta desejada e execute o comando abaixo para clonar e acessar a pasta do projeto:
-```bash
+```bash```
 git clone [https://github.com/Ketsiane/EstudoFlow.git](https://github.com/Ketsiane/EstudoFlow.git)
 cd EstudoFlow
 
 ### 2. Instalar as dependências
 Instale as dependências estáveis utilizando os parâmetros recomendados para o ambiente Windows:
-```bash
+```bash```
 pip install -r requirements.txt --only-binary :all:
 pip install psycopg2-binary --only-binary :all:
 
 ### 3. Executar o Servidor Local
 Inicie o servidor Uvicorn para rodar a aplicação em modo de desenvolvimento:
-```bash
+```bash```
 uvicorn main:app --reload
 
 A aplicação iniciará automaticamente e estará acessível pelo endereço local [http://127.0.0.1:8000](http://127.0.0.1:8000)
